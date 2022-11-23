@@ -1,16 +1,5 @@
-# basic_application
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+A basic flutter application which shows the implementation of Shared Preferences.
+It consists of three screens which are Login, Home and the Splash.
+The app prompts the user to enter the email (from the reqres API) and the password.
+The user makes a post request to reqres api and the app redirects to the Home or Stays in the login as per the response.
+The response is then saved in the shared preferences so that when the user opens the app again, it redirects them to either Login or Home page.
